@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Thư 20/10 – Gửi những bóng hồng rạng rỡ</title>
+<meta name="description" content="Một lá thư nhỏ chúc mừng ngày Phụ nữ Việt Nam 20/10.">
+<meta property="og:title" content="Thư 20/10 – Gửi những bóng hồng rạng rỡ">
+<meta property="og:description" content="Chạm vào con dấu để mở thư ♥">
+<meta property="og:image" content="images/anh-1.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B9%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Patrick+Hand&display=swap">
+<style>
+:root{--paper:#fffaf0;--ink:#2b3a67;--rose:#c2415a;--bg1:#f9e6df;--bg2:#efcfc3;--out:#d9b9ab;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg1:#3b2630;--bg2:#2a1a22;--out:#1a1015;--ink:#f3e3dc;--rose:#f08aa0}}
+:root[data-theme="dark"]{--bg1:#3b2630;--bg2:#2a1a22;--out:#1a1015;--ink:#f3e3dc;--rose:#f08aa0}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;overflow:hidden}
+body{font-family:'Patrick Hand','Segoe Print','Comic Sans MS',cursive;color:var(--ink);background:var(--out)}
+.stage{position:relative;height:100%;max-width:520px;margin:0 auto;overflow:hidden;background:radial-gradient(ellipse at 50% 0,var(--bg1),var(--bg2));box-shadow:0 0 40px rgba(0,0,0,.25)}
+.scene{position:absolute;inset:0;transition:opacity .9s ease,visibility 0s linear 0s}
+.scene.off,.scene:not(.on).lt{opacity:0;visibility:hidden;pointer-events:none;transition:opacity .9s ease,visibility 0s linear .9s}
+#s1{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:20px}
+.kick{font-size:20px;letter-spacing:.06em}
+.to{font-family:'Dancing Script','Brush Script MT',cursive;font-weight:700;font-size:38px;line-height:1.1;text-align:center;color:var(--rose)}
+.from{font-size:21px}
+.hint{font-size:18px;text-align:center;opacity:.85;line-height:1.5}
+.env{position:relative;width:min(84vw,380px);aspect-ratio:1.5;perspective:1200px;cursor:pointer;margin:14px 0}
+.env>*{position:absolute}
+.eb{inset:0;background:#d3b280;border-radius:6px;box-shadow:0 18px 30px rgba(80,40,20,.35)}
+.ep{left:6%;right:6%;top:4%;height:88%;z-index:2;border-radius:3px;background:var(--paper) repeating-linear-gradient(180deg,transparent 0 17px,rgba(90,130,190,.3) 17px 18px);box-shadow:0 0 6px rgba(0,0,0,.2);transition:transform 1.1s ease}
+.env.pull .ep{transform:translateY(-60%) scale(1.04)}
+.ef{inset:0;z-index:3;pointer-events:none}
+.ef i{position:absolute;inset:0}
+.ef .l{background:linear-gradient(100deg,#ebd5af,#dcc08f);clip-path:polygon(0 0,52% 54%,0 100%)}
+.ef .r{background:linear-gradient(260deg,#ebd5af,#dcc08f);clip-path:polygon(100% 0,48% 54%,100% 100%)}
+.ef .b{background:linear-gradient(180deg,#eedab6,#d9bb88);clip-path:polygon(0 100%,50% 46%,100% 100%)}
+.fl{left:0;right:0;top:0;height:62%;z-index:4;transform-origin:50% 0;transform-style:preserve-3d;transition:transform .9s ease,z-index 0s linear 0s}
+.fl i{position:absolute;inset:0;clip-path:polygon(0 0,100% 0,50% 100%);backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.fl .o{background:linear-gradient(180deg,#e8d0a6,#d5b684)}
+.fl .n{background:linear-gradient(180deg,#e3cba0,#f3e3c6);transform:rotateY(180deg)}
+.env.open .fl{transform:rotateX(-180deg);z-index:1;transition:transform 1s cubic-bezier(.45,.05,.3,1),z-index 0s linear .5s}
+.seal{position:absolute;left:50%;top:100%;width:54px;height:54px;margin:-27px 0 0 -27px;border:0;border-radius:50%;cursor:pointer;color:#ffd9de;font-size:24px;background:radial-gradient(circle at 35% 30%,#e0526b,#a3182b);box-shadow:0 3px 8px rgba(0,0,0,.4);backface-visibility:hidden;-webkit-backface-visibility:hidden;transform:translateZ(1px);animation:pl 1.8s ease-in-out infinite}
+.env.open .seal{animation:none}
+@keyframes pl{50%{transform:translateZ(1px) scale(1.1)}}
+.stamp{right:5%;top:8%;z-index:5;width:34px;height:40px;border:2px dashed rgba(194,65,90,.7);background:#fff3ea;color:var(--rose);display:grid;place-items:center;font-size:18px;transform:rotate(4deg);transition:opacity .4s}
+.env.open .stamp{opacity:0}
+#s2{overflow-y:auto;padding:22px 14px 70px;scrollbar-width:none}
+#s2::-webkit-scrollbar{display:none}
+.sheet{position:relative;max-width:440px;margin:0 auto;padding:34px 18px 8px 44px;border-radius:4px;color:#2b3a67;font-size:22px;line-height:34px;
+ background-color:var(--paper);background-image:linear-gradient(90deg,transparent 30px,rgba(194,65,90,.4) 30px 32px,transparent 32px),repeating-linear-gradient(180deg,transparent 0 33px,rgba(90,130,190,.28) 33px 34px);box-shadow:0 12px 30px rgba(80,40,20,.3)}
+.sheet p{margin:0 0 34px}
+.date{text-align:right;margin-bottom:0}
+.hl{font-family:'Dancing Script',cursive;font-weight:700;font-size:28px;line-height:34px;color:#c2415a;margin-bottom:34px}
+.sign{font-family:'Dancing Script',cursive;font-weight:700;font-size:30px;line-height:34px;color:#c2415a;margin:0 0 20px}
+.rv{opacity:0;transform:translateY(8px);transition:opacity .9s ease,transform .9s ease}
+.rv.in{opacity:1;transform:none}
+.alb{max-width:440px;margin:26px auto 0;text-align:center}
+.alb h3{font-family:'Dancing Script',cursive;font-weight:700;font-size:32px;color:var(--rose);line-height:1.2}
+.pola{position:relative;height:min(62vh,440px);margin:6px 0 2px}
+.po{position:absolute;left:50%;top:50%;background:#fff;padding:10px 10px 34px;box-shadow:0 8px 20px rgba(60,30,20,.4);opacity:0;transform:translate(-50%,-50%) rotate(var(--r)) scale(.92);transition:opacity .8s ease,transform 1.2s ease}
+.po.on{opacity:1;transform:translate(-50%,-50%) rotate(var(--r)) scale(1)}
+.po::before{content:"";position:absolute;top:-10px;left:50%;width:70px;height:20px;margin-left:-35px;background:rgba(240,200,120,.65);transform:rotate(-3deg)}
+.po img{display:block;object-fit:cover}
+.po span{position:absolute;left:0;right:0;bottom:7px;font-family:'Dancing Script',cursive;font-size:18px;color:#c2415a}
+.nav{display:flex;align-items:center;justify-content:center;gap:14px}
+.nb{width:38px;height:38px;border-radius:50%;border:1.5px solid var(--rose);background:var(--paper);color:#c2415a;font-size:20px;cursor:pointer}
+.nb:disabled{opacity:.3}
+.dts{display:flex;gap:7px}.dts i{width:7px;height:7px;border-radius:50%;background:rgba(194,65,90,.3)}.dts i.on{background:var(--rose)}
+.fin{font-family:'Dancing Script',cursive;font-weight:700;font-size:28px;line-height:1.3;color:var(--rose);margin:18px 8px 4px}
+.rp{background:none;border:0;color:var(--ink);font:inherit;font-size:19px;text-decoration:underline;text-underline-offset:3px;cursor:pointer;padding:8px}
+.pt{position:absolute;inset:0;z-index:6;pointer-events:none;overflow:hidden}
+.pt i{position:absolute;top:-30px;border-radius:150% 0 150% 0;background:linear-gradient(135deg,#ffd3dc,#f27d98 60%,#d4466a);opacity:.85;animation:fall linear infinite}
+@keyframes fall{to{transform:translate3d(var(--dx),112vh,0) rotate(540deg)}}
+.mute{position:absolute;z-index:40;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));width:38px;height:38px;border-radius:50%;cursor:pointer;border:1.5px solid var(--rose);background:rgba(255,250,240,.92);color:#c2415a;display:grid;place-items:center;padding:0;box-shadow:0 3px 10px rgba(0,0,0,.3)}
+.mute svg{width:20px;height:20px}.mute .x{display:none}.mute.off .w{display:none}.mute.off .x{display:block}
+.toast{position:absolute;z-index:41;right:62px;bottom:calc(20px + env(safe-area-inset-bottom,0px));max-width:62%;font-size:15px;line-height:1.3;color:#2b3a67;background:#fffaf0;border:1px solid var(--rose);border-radius:14px;padding:6px 12px;opacity:0;transition:opacity .4s;pointer-events:none}
+.toast.show{opacity:1}
+@media (prefers-reduced-motion:reduce){.pt i{animation-duration:20s!important}.rv{transition-duration:.2s}}
+</style>
+</head>
+<body>
+
+
+<main class="stage" id="stage">
+ <section class="scene on" id="s1">
+  <div class="kick">Một lá thư nhỏ gửi</div>
+  <div class="to">Những bóng hồng<br>rạng rỡ</div>
+  <div class="env" id="env" role="button" aria-label="Mở phong bì">
+   <div class="eb"></div><div class="ep"></div>
+   <div class="ef"><i class="l"></i><i class="r"></i><i class="b"></i></div>
+   <div class="fl"><i class="o"></i><i class="n"></i><button class="seal" id="seal" type="button" aria-label="Mở thư">♥</button></div>
+   <div class="stamp">✿</div>
+  </div>
+  <div class="from">Từ Linh · Hà · Bống</div>
+  <div class="hint">Chạm vào con dấu để mở thư<br>♪ Bật loa để nghe nhạc</div>
+ </section>
+ <section class="scene lt" id="s2">
+  <article class="sheet">
+   <p class="rv date">Ngày 20 tháng 10</p>
+   <p class="rv hl">Gửi những bóng hồng rạng rỡ của nhà mình,</p>
+   <p class="rv">Bà, các dì và mợ thân yêu, nhân ngày 20/10 chúng cháu viết lá thư nhỏ này để chúc mừng và nói lời thương.</p>
+   <p class="rv">Chúng cháu kính chúc bà luôn mạnh khỏe, bình an và vui vầy bên con cháu mỗi ngày. Chúc các dì và mợ mãi xinh đẹp, rạng rỡ, công việc thuận lợi, gia đình êm ấm.</p>
+   <p class="rv">Cảm ơn bà đã thương yêu và lo lắng cho con cháu suốt bao năm qua. Cảm ơn các dì và mợ vì những bữa cơm ấm áp, những lời dặn dò và vòng tay luôn rộng mở mỗi khi chúng cháu cần.</p>
+   <p class="rv">Có bà, các dì và mợ, gia đình mình mới luôn đầy ắp tiếng cười. Mong những bóng hồng của nhà mình luôn tỏa sáng và được yêu thương thật nhiều.</p>
+   <p class="rv sign">Yêu bà, các dì và mợ nhiều lắm,</p>
+   <p class="rv sign">Linh · Hà · Bống ♥</p>
+  </article>
+  <div class="alb">
+   <h3 class="rv">Khoảnh khắc của gia đình mình</h3>
+   <div class="pola" id="pola"></div>
+   <div class="nav"><button class="nb" id="pp" type="button" aria-label="Ảnh trước">‹</button><div class="dts" id="pdots"></div><button class="nb" id="pn" type="button" aria-label="Ảnh sau">›</button></div>
+   <div class="fin rv">Mãi yêu bà, các dì và mợ,<br>những bóng hồng rạng rỡ nhất!</div>
+   <button class="rp" id="rp" type="button">↻ Đọc lại từ đầu</button>
+  </div>
+ </section>
+ <div class="pt" id="pt" aria-hidden="true"></div>
+ <div class="toast" id="toast" role="status" aria-live="polite"></div>
+ <button class="mute off" id="mute" type="button" aria-label="Bật hoặc tắt nhạc nền" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5H4z" fill="currentColor" fill-opacity=".25"/><g class="w"><path d="M15.5 9a4.2 4.2 0 0 1 0 6"/><path d="M18 6.5a7.6 7.6 0 0 1 0 11"/></g><g class="x"><path d="M16 9.5l5 5M21 9.5l-5 5"/></g></svg></button>
+</main>
+<script>
+(function(){
+var $=function(s,r){return (r||document).querySelector(s)},$$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+var SLIDES=[{"s": "images/anh-1.jpg", "w": 1000, "h": 750}, {"s": "images/anh-2.jpg", "w": 749, "h": 1000}, {"s": "images/anh-3.jpg", "w": 750, "h": 1000}, {"s": "images/anh-4.jpg", "w": 750, "h": 1000}, {"s": "images/anh-5.jpg", "w": 890, "h": 1000}];
+var Music=(function(){
+    var BPM=66,beat=60/BPM,bar=beat*4;
+    var mf=function(m){return 440*Math.pow(2,(m-69)/12)};
+    var CH=[
+      {b:36,a:[55,60,64,67]},{b:47,a:[50,55,59,62]},{b:45,a:[52,57,60,64]},{b:40,a:[55,59,64,67]},
+      {b:41,a:[53,57,60,65]},{b:40,a:[55,60,64,67]},{b:38,a:[53,57,62,65]},{b:43,a:[50,55,59,62]}
+    ];
+    var MEL=[
+      [[0,76,1.5],[1.5,74,.5],[2,72,1],[3,76,1]],
+      [[0,74,2],[2,71,1],[3,74,1]],
+      [[0,72,1.5],[1.5,71,.5],[2,69,1],[3,72,1]],
+      [[0,71,2],[2,67,1],[3,71,1]],
+      [[0,69,1.5],[1.5,67,.5],[2,65,1],[3,69,1]],
+      [[0,67,2],[2,72,1],[3,76,1]],
+      [[0,77,1.5],[1.5,76,.5],[2,74,1],[3,77,1]],
+      [[0,74,2],[2,71,1],[3,67,1]]
+    ];
+    function impulse(c,sec,decay){
+      var n=Math.floor(c.sampleRate*sec),b=c.createBuffer(2,n,c.sampleRate);
+      for(var ch=0;ch<2;ch++){var d=b.getChannelData(ch);for(var i=0;i<n;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/n,decay)}
+      return b;
+    }
+    function graph(c){
+      var master=c.createGain();master.gain.value=0;
+      var comp=c.createDynamicsCompressor();comp.threshold.value=-16;comp.ratio.value=4;comp.attack.value=.01;comp.release.value=.3;
+      var lp=c.createBiquadFilter();lp.type='lowpass';lp.frequency.value=9000;
+      var dry=c.createGain();dry.gain.value=.85;
+      var wet=c.createGain();wet.gain.value=.45;
+      var verb=c.createConvolver();verb.buffer=impulse(c,2.8,2.4);
+      dry.connect(lp);wet.connect(verb);verb.connect(lp);lp.connect(comp);comp.connect(master);master.connect(c.destination);
+      var an=c.createAnalyser();an.fftSize=1024;master.connect(an);
+      return {dry:dry,wet:wet,master:master,an:an};
+    }
+    function osc(c,type,f,t,end){var o=c.createOscillator();o.type=type;o.frequency.value=f;o.start(t);o.stop(end);return o}
+    function send(c,bus,node,w){node.connect(bus.dry);var s=c.createGain();s.gain.value=w;node.connect(s);s.connect(bus.wet)}
+    function box(c,bus,t,f,dur,vel){
+      var end=t+Math.max(dur*1.6,1.8),g=c.createGain();
+      g.gain.setValueAtTime(.0001,t);g.gain.linearRampToValueAtTime(vel,t+.006);
+      g.gain.exponentialRampToValueAtTime(vel*.35,t+.4);g.gain.exponentialRampToValueAtTime(.0001,end);
+      [[1,1],[2,.26],[3,.08],[4.01,.035]].forEach(function(p){var og=c.createGain();og.gain.value=p[1];osc(c,'sine',f*p[0],t,end+.05).connect(og);og.connect(g)});
+      send(c,bus,g,.8);
+    }
+    function pluck(c,bus,t,f,vel){
+      var end=t+1.5,o=osc(c,'triangle',f,t,end+.05),fl=c.createBiquadFilter(),g=c.createGain();
+      fl.type='lowpass';fl.frequency.setValueAtTime(2600,t);fl.frequency.exponentialRampToValueAtTime(700,t+.9);
+      g.gain.setValueAtTime(.0001,t);g.gain.linearRampToValueAtTime(vel,t+.01);g.gain.exponentialRampToValueAtTime(.0001,end);
+      o.connect(fl);fl.connect(g);send(c,bus,g,.55);
+    }
+    function bass(c,bus,t,f,dur,vel){
+      var end=t+dur+.3,g=c.createGain();
+      g.gain.setValueAtTime(.0001,t);g.gain.linearRampToValueAtTime(vel,t+.06);g.gain.exponentialRampToValueAtTime(vel*.5,t+dur*.6);g.gain.exponentialRampToValueAtTime(.0001,end);
+      osc(c,'sine',f,t,end+.05).connect(g);
+      var o2=osc(c,'triangle',f*2,t,end+.05),g2=c.createGain();g2.gain.value=.45;o2.connect(g2);g2.connect(g);send(c,bus,g,.25);
+    }
+    function pad(c,bus,t,f,dur,vel){
+      var end=t+dur+.8,g=c.createGain(),fl=c.createBiquadFilter();
+      fl.type='lowpass';fl.frequency.value=850;
+      g.gain.setValueAtTime(.0001,t);g.gain.linearRampToValueAtTime(vel,t+1.3);g.gain.setValueAtTime(vel,t+dur-.2);g.gain.linearRampToValueAtTime(.0001,end);
+      [-5,5].forEach(function(d){var o=osc(c,'triangle',f,t,end+.05);o.detune.value=d;o.connect(fl)});
+      fl.connect(g);send(c,bus,g,.7);
+    }
+    function scheduleBar(c,bus,n,t){
+      var k=n%8,ch=CH[k],pat=[0,1,2,3,2,3,1,2];
+      bass(c,bus,t,mf(ch.b),bar,.3);
+      for(var j=0;j<3;j++)pad(c,bus,t,mf(ch.a[j]),bar,.05);
+      for(var i=0;i<8;i++)pluck(c,bus,t+i*beat/2,mf(ch.a[pat[i]]),.13);
+      MEL[k].forEach(function(m){box(c,bus,t+m[0]*beat,mf(m[1]+12),m[2]*beat,.24)});
+    }
+    var ctx=null,bus=null,timer=0,t0=0,nextBar=0,muted=false,LEVEL=.9,btn=null,silentEl=null,toastEl=null,toastT=0;
+    function tick(){
+      if(!ctx)return;
+      while(t0+nextBar*bar<ctx.currentTime+1.4){scheduleBar(ctx,bus,nextBar,t0+nextBar*bar);nextBar++}
+    }
+    function running(){return !!ctx&&ctx.state==='running'}
+    function paint(){if(btn){var on=running()&&!muted;btn.classList.toggle('off',!on);btn.setAttribute('aria-pressed',String(on))}}
+    function say(msg,ms){
+      if(!toastEl)return;toastEl.textContent=msg;toastEl.classList.add('show');clearTimeout(toastT);
+      toastT=setTimeout(function(){toastEl.classList.remove('show')},ms||5000);
+    }
+    /* iPhone: Web Audio bị tắt tiếng khi gạt công tắc im lặng; phát một đoạn âm thanh rỗng bằng thẻ audio để chuyển sang kênh "phát nhạc" */
+    function silentWav(){
+      var n=8000,b=new Uint8Array(44+n),dv=new DataView(b.buffer),i;
+      function s(o,str){for(var k=0;k<str.length;k++)dv.setUint8(o+k,str.charCodeAt(k))}
+      s(0,'RIFF');dv.setUint32(4,36+n,true);s(8,'WAVE');s(12,'fmt ');dv.setUint32(16,16,true);dv.setUint16(20,1,true);dv.setUint16(22,1,true);
+      dv.setUint32(24,8000,true);dv.setUint32(28,8000,true);dv.setUint16(32,1,true);dv.setUint16(34,8,true);s(36,'data');dv.setUint32(40,n,true);
+      for(i=0;i<n;i++)b[44+i]=128;
+      var bin='';for(i=0;i<b.length;i++)bin+=String.fromCharCode(b[i]);
+      return 'data:audio/wav;base64,'+btoa(bin);
+    }
+    function unlockIOS(){
+      try{if(navigator.audioSession)navigator.audioSession.type='playback'}catch(e){}
+      try{
+        if(!silentEl){
+          silentEl=document.createElement('audio');silentEl.src=silentWav();silentEl.loop=true;
+          silentEl.setAttribute('playsinline','');silentEl.setAttribute('aria-hidden','true');silentEl.style.display='none';
+          document.body.appendChild(silentEl);
+        }
+        var p=silentEl.play();if(p&&p.catch)p.catch(function(){});
+      }catch(e){}
+    }
+    function init(){
+      if(ctx)return true;
+      var AC=window.AudioContext||window.webkitAudioContext;if(!AC)return false;
+      try{ctx=new AC()}catch(e){ctx=null;return false}
+      bus=graph(ctx);
+      try{var ub=ctx.createBuffer(1,1,22050),us=ctx.createBufferSource();us.buffer=ub;us.connect(ctx.destination);us.start(0)}catch(e){}
+      t0=ctx.currentTime+.25;nextBar=0;
+      bus.master.gain.setValueAtTime(0,ctx.currentTime);
+      bus.master.gain.linearRampToValueAtTime(muted?0:LEVEL,ctx.currentTime+3.5);
+      tick();timer=setInterval(tick,250);
+      if(ctx.addEventListener)ctx.addEventListener('statechange',paint);
+      return true;
+    }
+    function gesture(){
+      if(muted)return;
+      unlockIOS();
+      if(!init())return;
+      if(!running()){var p=ctx.resume();if(p&&p.then)p.then(after,after)}else after();
+    }
+    function after(){
+      paint();
+      setTimeout(function(){
+        paint();
+        if(!muted&&!running())say('Chạm vào biểu tượng loa để bật nhạc ♪',6000);
+      },900);
+    }
+    function toggle(){
+      if(!running()){muted=false;gesture();paint();return}
+      muted=!muted;
+      bus.master.gain.cancelScheduledValues(ctx.currentTime);
+      bus.master.gain.setTargetAtTime(muted?0:LEVEL,ctx.currentTime,.35);
+      paint();
+    }
+    function bind(b,toast){
+      btn=b;toastEl=toast;
+      b.addEventListener('click',function(e){e.stopPropagation();toggle()});
+      ['click','touchend','pointerup','keydown'].forEach(function(ev){
+        document.addEventListener(ev,function(){if(!muted&&!(running()&&silentEl&&!silentEl.paused))gesture()},{capture:true,passive:true});
+      });
+      document.addEventListener('visibilitychange',function(){
+        if(!ctx)return;
+        if(document.hidden){ctx.suspend()}else if(!muted){ctx.resume()}
+      });
+      paint();
+    }
+    function level(){
+      if(!bus)return -1;var d=new Uint8Array(bus.an.fftSize);bus.an.getByteTimeDomainData(d);
+      var s=0;for(var i=0;i<d.length;i++){var v=(d[i]-128)/128;s+=v*v}return Math.sqrt(s/d.length);
+    }
+    return {bind:bind,graph:graph,scheduleBar:scheduleBar,bar:bar,LEVEL:LEVEL,level:level,running:running};
+  })();
+  
+Music.bind($('#mute'),$('#toast'));
+var env=$('#env'),s1=$('#s1'),s2=$('#s2'),busy=false,tm=0,idx=-1,started=false,timers=[];
+function later(f,ms){timers.push(setTimeout(f,ms))}
+function open(){if(busy)return;busy=true;env.classList.add('open');
+ later(function(){env.classList.add('pull')},1000);
+ later(function(){s1.classList.add('off');s2.classList.add('on');s2.scrollTop=0;petals(true)},2400)}
+env.addEventListener('click',open);
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{root:s2,threshold:.2});
+function watch(){$$('.rv').forEach(function(el,i){el.classList.remove('in');el.style.transitionDelay=(i%3*.2)+'s';io.observe(el)})}
+watch();
+/* ảnh polaroid */
+var pola=$('#pola'),dEl=$('#pdots'),els=[],dts=[],rot=[-3,2.5,-2,3,-2.5];
+SLIDES.forEach(function(s,i){var e=document.createElement('div');e.className='po';e.style.setProperty('--r',rot[i%5]+'deg');
+ e.innerHTML='<img alt="Ảnh gia đình ('+(i+1)+')" src="'+s.s+'"><span>♥ 20/10</span>';pola.appendChild(e);els.push(e);
+ var d=document.createElement('i');dEl.appendChild(d);dts.push(d)});
+function lay(){var aw=pola.clientWidth-30,ah=pola.clientHeight-62;if(aw<=0)return;
+ SLIDES.forEach(function(s,i){var k=Math.min(aw/s.w,ah/s.h),im=els[i].firstChild;im.style.width=Math.round(s.w*k)+'px';im.style.height=Math.round(s.h*k)+'px'})}
+function go(n){idx=n;els.forEach(function(e,k){e.classList.toggle('on',k===n)});dts.forEach(function(e,k){e.classList.toggle('on',k===n)});$('#pp').disabled=n<=0;$('#pn').disabled=n>=SLIDES.length-1}
+function stopA(){clearInterval(tm)}
+function auto(){lay();go(0);stopA();tm=setInterval(function(){if(idx<SLIDES.length-1)go(idx+1);else stopA()},3400)}
+$('#pp').addEventListener('click',function(){stopA();if(idx>0)go(idx-1)});
+$('#pn').addEventListener('click',function(){stopA();if(idx<SLIDES.length-1)go(idx+1)});
+new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting&&!started){started=true;auto()}})},{root:s2,threshold:.5}).observe(pola);
+window.addEventListener('resize',lay);go(-1);
+/* cánh hoa */
+function petals(on){var b=$('#pt');b.innerHTML='';if(!on)return;
+ for(var k=0;k<16;k++){var p=document.createElement('i'),z=8+Math.random()*10;
+  p.style.cssText='width:'+z+'px;height:'+(z*1.25)+'px;left:'+(Math.random()*100)+'%;animation-duration:'+(9+Math.random()*7)+'s;animation-delay:-'+(Math.random()*14)+'s;--dx:'+((Math.random()>.5?1:-1)*(20+Math.random()*40))+'px';b.appendChild(p)}}
+$('#rp').addEventListener('click',function(){
+ timers.forEach(clearTimeout);timers=[];stopA();started=false;go(-1);petals(false);
+ s2.classList.remove('on');s1.classList.remove('off');env.classList.remove('open','pull');watch();busy=false});
+})();
+</script>
+</body>
+</html>
